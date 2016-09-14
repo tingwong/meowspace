@@ -28,13 +28,13 @@ First, use CSS to rearrange the layout to match the drawings as much as possible
 
 <img src="assets/imgs/article_layout.jpg" alt="article layout" width="250px"/>
 
-## Wave 3
+## Bonus
 ### Profiles
 
 
 <img src="assets/imgs/profile_layout.jpg" alt="profile layout" width="250px"/>
 
-## Wave 4
+## Wave 3
 ### Refactor
 
 Look over your CSS and identify any sets of declarations that are being used a lot. Refactor you CSS to be more dry by utilizing multiple selectors or creating a class.
