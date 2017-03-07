@@ -1,40 +1,35 @@
 # Meowspace
-### Layout Practice!
+
+## Learning Goals
+- Practice Layout Techniques
+- Have DRY, readable CSS code using CSS selectors with classes and ids
+- Add Custom Styling
+
+## Baseline
+Using CSS, construct the layout of the site according to the drawing below.
+![Meowspace Wireframe]()
 
 
-## Instructions
-
-Use the drawings below to make the provided html code match the layouts. These drawings are called wireframes, they are like a blueprint for your site's layout design. It highlights the layout without focusing on any of the design specifics (like color, fonts etc.).
+This drawings is called a wireframe. Wireframes are like a blueprint for your site's layout design. It highlights the layout without focusing on any of the design specifics (like color, fonts etc.).
 
 
-First, use CSS to rearrange the layout to match the drawings as much as possible (it doesn't need to be perfect).  Only then can you jazz up the site's design with more pleasing colors, fonts and small touches.
-
-
-- You can make changes to the html
+**You can make only make limited changes to the HTML**
   - WITHOUT moving any content around
-  - You can add sectioning elements, ID's and classes and necessary
+  - You can add sectioning elements, ID's and classes as necessary
+
+## Primary Requirements
+
+- Add normalize.css  
+- Use CSS to rearrange the layout to match the drawings as much as possible (it doesn't need to be perfect). You should utilize the following layout techniques at least once:
+  - Inline Block display
+  - Floats
+  - Fixed Positioning
+-  Identify repeated style, use CSS selectors and class/id names to organize and DRY your code.
+- Add a custom styling
+  - At least one google font
+  - At least one pseudo selector (like hover)
 
 
-
-## Wave 1
-### The Homepage
-
-<img src="assets/imgs/home_layout.jpg" alt="homepage layout" width="250px"/>
-
-
-## Wave 2
-### Articles
-
-
-<img src="assets/imgs/article_layout.jpg" alt="article layout" width="250px"/>
-
-## Bonus
-### Profiles
-
-
-<img src="assets/imgs/profile_layout.jpg" alt="profile layout" width="250px"/>
-
-## Wave 3
-### Refactor
-
-Look over your CSS and identify any sets of declarations that are being used a lot. Refactor you CSS to be more dry by utilizing multiple selectors or creating a class.
+### Optional Enhancements
+- Add parallax scrolling to the hero banner
+-
