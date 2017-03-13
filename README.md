@@ -9,7 +9,7 @@ This is an individual, [stage 2](https://github.com/Ada-Developers-Academy/pedag
 
 ## Baseline
 Using CSS, construct the layout of the site according to the drawing below.
-![Meowspace Wireframe]()
+![Meowspace Wireframe](./assets/meowspace.png)
 
 
 This drawings is called a wireframe. Wireframes are like a blueprint for your site's layout design. It highlights the layout without focusing on any of the design specifics (like color, fonts etc.).
