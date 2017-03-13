@@ -37,7 +37,7 @@ This drawings is called a wireframe. Wireframes are like a blueprint for your si
 
 ### Optional Enhancements
 
-- Add parallax scrolling to the hero banner
+- Add [parallax scrolling](https://www.w3schools.com/howto/howto_css_parallax.asp) to the hero banner
 - Animate the h1 element to fade in on page load
 - Create a new page for one of the articles
   - Create a wireframe for the layout design
