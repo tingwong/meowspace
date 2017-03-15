@@ -12,7 +12,7 @@ Using CSS, construct the layout of the site according to the drawing below.
 ![Meowspace Wireframe](./assets/meowspace.png)
 
 
-This drawings is called a wireframe. Wireframes are like a blueprint for your site's layout design. It highlights the layout without focusing on any of the design specifics (like color, fonts etc.). The areas that have an giant 'x' crossed through it are meant to represent the areas that have an image. **Hint:** There are two sections in this wireframe that have images as backgrounds.
+This drawing is called a wireframe. Wireframes are like a blueprint for your site's layout design. It highlights the layout without focusing on any of the design specifics (like color, fonts etc.). The areas that have an giant 'x' crossed through it are meant to represent the areas that have an image. **Hint:** There are two sections in this wireframe that have images as backgrounds.
 
 
 **You can make only make limited changes to the HTML**
