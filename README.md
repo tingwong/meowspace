@@ -22,7 +22,9 @@ This drawings is called a wireframe. Wireframes are like a blueprint for your si
 
 ## Primary Requirements
 
-- Add normalize.css  
+- Add normalize.css
+  - Normalize is a popular collection of CSS rulesets used to render elements more consistently across browsers.
+  - Go to [https://necolas.github.io/normalize.css/](https://necolas.github.io/normalize.css/), click the red download button, copy and paste the code into a new file called 'normalize.css' and link to it as you would with main.css. The link to normalize.css should come before your main.css. 
 - Use CSS to rearrange the layout to match the drawings as much as possible (it doesn't need to be perfect). You should utilize the following layout techniques at least once:
   - Inline Block display
   - Floats
