@@ -5,7 +5,7 @@ header {
   width: 95%;
   }
 
-.brand {
+.header-text {
   display: inline-block;
 }
 
@@ -16,7 +16,6 @@ header a:link{
 
 header nav {
   display: inline-block;
-  /*float: left;*/
 }
 
 header ul {
