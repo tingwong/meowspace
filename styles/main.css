@@ -1,11 +1,15 @@
-header {
+/*header {
   position: relative;
   left: 50px;
   font-size: 20px;
   width: 95%;
-  }
+  }*/
 
 .header-text {
+  display: inline-block;
+}
+
+header h2 {
   display: inline-block;
 }
 
@@ -16,15 +20,16 @@ header a:link{
 
 header nav {
   display: inline-block;
+  float: right;
 }
 
-header ul {
+/*header ul {
   list-style: none;
   float: right;
   position: absolute;
   top: 0;
   right: 50px;
-}
+}*/
 
 header li {
   float: left;
@@ -32,29 +37,130 @@ header li {
   margin: 10px;
 }
 
-main {
-  /*top: 10px*/
-}
-
-main #hero-image {
-  border: solid;
-  max-width: 100%;
-  /*max-height: 100px;*/
-  display: block;
-  position: absolute;
+main section:first-of-type {
+  background-image: url(../assets/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40em;
 }
 
 main #hero-text {
-  position: relative;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  left: 50%;
+  top: 300px;
+}
+
+section img #everybody {
+  /*max-width: 100%;
+  display: block;*/
+}
+
+main section:last-of-type h2 {
+  text-align: center;
+  padding: 10%;
+  font-size: 3em;
+}
+
+main article {
+  border: solid;
+  border-radius: 10px;
+  /*margin: 10p*/
+  /*display: inline-block;*/
+  /*float: left;*/
+  /*height: auto;
+  width: 300px  ;*/
+  /*padding-left:20px;*/
+  /*padding-right:20px;*/
+
+  display: inline-block;
+  height: 400px;
+  width: 170px;
+  margin: 2%;
+  text-overflow: ellipsis;
+  white-space: normal;
+  overflow: hidden;
+}
+
+/*padding
+margin
+border radius
+height*/
+
+main article h3 {
+  text-align: center;
+}
+
+main article h3:after {
+
+}
+
+main article p {
+  text-align: justify;
+  margin: 10%;
+}
+
+main article a {
+  border: solid;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+main section:nth-of-type(3) {
+  border: solid;
+  display: inline-block;
+  /*width: 30%;*/
+}
+
+main section:nth-of-type(3) > * {
+  width: 30%;
+  text-align: justify;
+  margin-left: 15%;
+  /*float: left;*/
   display: inline-block;
 }
 
+main section img {
+  border: solid;
+  /*float: right;*/
+  /*display: inline-block;*/
+}
+
+main section:last-of-type {
+  background-image: url(../assets/everybody.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 20em;
+}
+
+main section:last-of-type h2 {
+  margin: 0;
+}
 
 
+footer {
+
+}
 
 
+footer div {
+  font-size: 10px;
+  /*display: inline-block;*/
+  text-align: justify;
+  width: 30%;
+  margin-left: 15%;
+}
 
+footer nav {
+  display: inline-block;
+  float: right;
+  margin-right: 45%;
+  /*margin-top: 1%;*/
+}
 
+footer a:link {
+  text-decoration: none;
 
-
-footer:nth
+}
