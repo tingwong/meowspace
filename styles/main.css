@@ -36,14 +36,25 @@ main {
   /*top: 10px*/
 }
 
-main #hero {
+main #hero-image {
   border: solid;
   max-width: 100%;
-  display: inline-block;
-  position: relative;
+  /*max-height: 100px;*/
+  display: block;
+  position: absolute;
 }
 
 main #hero-text {
-  position: absolute;
-  display: block;
+  position: relative;
+  display: inline-block;
 }
+
+
+
+
+
+
+
+
+
+footer:nth
