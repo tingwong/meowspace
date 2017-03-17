@@ -28,14 +28,6 @@ header nav {
   margin-right: 5%;
 }
 
-/*header ul {
-  list-style: none;
-  float: right;
-  position: absolute;
-  top: 0;
-  right: 50px;
-}*/
-
 header li {
   float: left;
   list-style: none;
@@ -62,7 +54,6 @@ main #hero-text {
 
 main section:nth-of-type(2) {
   padding: 3em;
-  margin-left: 10%;
 }
 
 main section:nth-of-type(2) h2 {
@@ -72,6 +63,11 @@ main section:nth-of-type(2) h2 {
   color: navy;
   padding: 0;
   margin: 0;
+}
+
+main section#posts div {
+  /*margin: 0px 0 0 130px;*/
+    margin: 0 0 0 10%;
 }
 
 main section:nth-of-type(2) article {
@@ -117,32 +113,28 @@ main section h2 {
 }
 
 main section:nth-of-type(3) {
-  border: solid;
+  border-top: solid;
   display: inline-block;
+  margin: 0;
   /*width: 30%;*/
 }
 
-main section:nth-of-type(3) > * {
-  width: 30%;
+main section#join-the-club {
+  padding: 2%;
+}
+
+main section#join-the-club div {
+  width: 25%;
   text-align: justify;
-  margin-left: 15%;
-  /*float: left;*/
-  /*display: inline-block;*/
+  margin-left: 20%;
+  float: left;
+  display: inline-block;
 }
 
-main section:nth-of-type(3) h2 {
-  /*display: inline-block;*/
-}
-
-main section:nth-of-type(3) p {
-  /*display: inline-block;*/
-}
-
-main section:nth-of-type(3) img {
-  border: solid red;
+main section#join-the-club img {
   float: right;
-  /*clear: both; */
-  /*display: inline-block;*/
+  width: 25%;
+  margin-right: 25%;
 }
 
 main section:last-of-type {
@@ -159,22 +151,26 @@ main section:last-of-type h2 {
   color: yellow;
 }
 
-footer {
-  background: yellow;
-}
-
 footer div {
   font-size: 10px;
-  display: inline-block;
   text-align: justify;
   width: 30%;
-  margin-left: 15%;
+  margin-left: 20%;
+  margin-top: 1em;
+  float: left;
+}
+
+footer p#disclaimer {
+  display: inline;
+}
+
+footer h4 {
+  display: inline;
 }
 
 footer nav {
-  display: inline-block;
-  float: right;
-  margin-right: 45%;
+  float: left;
+  margin-left: 5%;
 }
 
 footer a:link {
