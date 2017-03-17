@@ -131,16 +131,16 @@ main section:nth-of-type(3) > * {
 }
 
 main section:nth-of-type(3) h2 {
-  /*float: left;*/
+  /*display: inline-block;*/
 }
 
 main section:nth-of-type(3) p {
-  /*float: left;*/
+  /*display: inline-block;*/
 }
 
 main section:nth-of-type(3) img {
-  border: solid;
-  /*float: right;*/
+  border: solid red;
+  float: right;
   /*clear: both; */
   /*display: inline-block;*/
 }
